@@ -1,10 +1,10 @@
-## A Fair Game and the Measurement Paradox: Martingales and Quantum Analogy
+# A Fair Game and the Measurement Paradox: Martingales and Quantum Analogy
 
-A **martingale** is a stochastic process whose expected future value, given all current information, equals its present value. In the fair coin-toss model where we assign $+1$ for heads and $-1$ for tails, let $S_t$ be the cumulative sum of these increments up to time $t$. Since each increment has zero mean and is independent of past outcomes, 
+A **martingale** is a stochastic process whose expected future value, given all current information, equals its present value. In the fair coin-toss model where we assign $+1$ for heads and $-1$ for tails, let $S_t$ be the cumulative sum of these increments up to time $t$. Since each increment has zero mean and is independent of past outcomes, we have
 
-$$
+\[
 E[S_t \mid \mathcal{F}_{t-1}] = S_{t-1},
-$$
+\]
 
 indicating no net drift in this “fair game.” Thus, $\{S_t\}$ is a classic martingale.
 
